@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopleft</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+         <meta content="width=device-width, initial-scale=1.0" name="viewport">
+     <meta content="" name="keywords">
+     <meta content="" name="description">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS libraries -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="libs/nivo-slider/css/nivo-slider.css"/>
+    <link rel="stylesheet" href="libs/nivo-slider/css/animate.css"/>
+    <link rel="stylesheet" href="libs/nivo-slider/css/style.css"/>
+    <link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <!--CSS main-->
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+    <!--JS libs-->
+   <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.js"></script>
+    <script src="libs/jquery.countdown/jquery.countdown.js"></script>
+    <script src="libs/nivo-slider/js/jquery.nivo.slider.js"></script>
+    <script src="libs/owl.carousel/owl.carousel.min.js"></script>
+    <script src="libs/slider-range/js/tmpl.js"></script>
+    <script src="libs/slider-range/js/jquery.dependClass-0.1.js"></script>
+    <script src="libs/slider-range/js/draggable-0.1.js"></script>
+    <script src="libs/slider-range/js/jquery.slider.js"></script>
+    <script src="libs/elevatezoom/jquery.elevatezoom.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+  <body class="animated fadeIn" style="animation-delay:.2s; transition:.3s;">
+     <div id="top_nav">
+    <div class="social-nav">
+    <ul class="list-inline mb-0 ml-lg-4 nav-social">
+          <li id="list-inline-item1" class="animated slideInLeft" style="animation-delay:.8s; transition:.2s;"><a href="#"><i class="ti-facebook"></i></a>
+          </li>
+          <li id="list-inline-item2" class="animated slideInLeft" style="animation-delay:.7s; transition:.2s;"><a href="#"><i class="ti-twitter"></i></a></li>
+          <li id="list-inline-item3" class="animated slideInLeft" style="animation-delay:.55s; transition:.2s;"><a href="#"><i class="ti-google"></i></a></li>
+          <li id="list-inline-item4" class="animated slideInLeft" style="animation-delay:.4s; transition:.2s;"><a href="#"><i class="ti-instagram"></i></a></li>
+        </ul> 
+  </div>
+  <div class="address animated slideInDown" style="animation-delay:.4s; transition:.2s;">
+     <span class="phone_number"><span class="icon-phone"></span>+(0)9037494084</span>
+     <span class="address_main"><span class="icon-envelope"></span>shopleft234@yahoo.com</span>
+    </div>
+</div>
+<div id="fixed_navbar" class="animated fadeIn">
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand animated bounceInLeft" style="animation-delay:.3s; transition:.5s;" href="#">Shopleft<span style="color:#f16821;">.</span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li id="home_icon" class="main"><a href="index.html" class="main animated slideInRight" style="animation-delay:.3s; transition:.5s;">Home</a></li>
+        <li id="product_icon"><a href="#" class="animated slideInRight" style="animation-delay:.4s; transition:.5s;">Products</a>
+        <ul class="sub_nav animated">
+        <li id="op_products" class="removesubdomain"><a href="#ourproducts">Our Products</a></li>
+        <li  id="fp_products" class="removesubdomain"><a href="#special_products"> Featured Products</a></li>
+        <li  id="rp_products" class="removesubdomain"><a href="#most_recent"> Resent Products</a></li>
+        <li  id="sh_products" class="removesubdomain"><a href="#main_section"> Shopping Mall</a></li>
+        </ul>
+        </li>
+        <li id="mall_icon"><a href="#main_section" class="animated slideInRight" style="animation-delay:.5s; transition:.5s;">Shopping mall</a></li>
+        <li id="about_icon"><a href="#about" class="animated slideInRight" style="animation-delay:.6s; transition:.5s;">About Us</a></li>
+        <li id="team_icon"><a href="#our_team" class="animated slideInRight" style="animation-delay:.7s; transition:.5s;">Our Team</a></li>
+        <li id="contact_icon"><a href="#contact" class="animated slideInRight" style="animation-delay:.8s; transition:.5s;">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<div id="cart_main">
+    <div class="cart_intro">
+        <h3>YOUR CART</h3>
+        <div class="cart_sub_nav">
+            <ul class="cart_nav">
+                <li><a href="#">Home  /</a></li>
+                <li><a href="#">Your cart</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container cart_main_page">
+<div class="col-lg-8">
+  <div class="cart-table">
+                        <h3>Your Cart</h3>
+                        <div class="cart-table-warp">
+                            <table>
+                            <thead>
+                                <tr>
+                                    <th class="product-th">Product</th>
+                                    <th class="quy-th">Quantity</th>
+                                    <th class="size-th">SizeSize</th>
+                                    <th class="total-th">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="product-col">
+                                        <img src="img/product-img/product1.png">
+                                        <div class="pc-title">
+                                            <h4>Best Quality Product</h4>
+                                            <p>$45.90</p>
+                                        </div>
+                                    </td>
+                                        <td>
+                    <div class="product_count">
+                      <input type="text" name="qty" id="sst" value="1" title="Quantity:" class="input-text qty"/>
+                      <button
+                        onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                        class="increase items-count"
+                        type="button"
+                      >
+                        <li id="list-inline-item2"><i class="ti-plus"></i></li>
+                      </button>
+                      <button
+                        onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                        class="reduced items-count"
+                        type="button"
+                      >
+                        <li id="list-inline-item2"><i class="ti-minus"></i></li>
+                      </button>
+                    </div>
+                  </td>
+
+                    <td class="size-col"><h4>Size M</h4></td>
+                    <td class="total-col"><h4>$45.90</h4></td>
+                </tr>
+                                     <tr>
+                                    <td class="product-col">
+                                        <img src="img/product-img/product7.png">
+                                        <div class="pc-title">
+                                            <h4>Best Quality Product</h4>
+                                            <p>$45.90</p>
+                                        </div>
+                                    </td>
+                                        <td>
+                    <div class="product_count">
+                     <input type="text" name="qty" id="sst" value="1" title="Quantity:" class="input-text qty"/>
+                      <button
+                        onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                        class="increase items-count"
+                        type="button"
+                      >
+                        <li id="list-inline-item2"><i class="ti-plus"></i></li>
+                      </button>
+                      <button
+                        onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                        class="reduced items-count"
+                        type="button"
+                      >
+                        <li id="list-inline-item2"><i class="ti-minus"></i></li>
+                      </button>
+                    </div>
+                  </td>
+
+                    <td class="size-col"><h4>Size M</h4></td>
+                    <td class="total-col"><h4>$45.90</h4></td>
+                </tr>
+                                                <tr>
+                                    <td class="product-col">
+                                        <img src="img/product-img/product3.png">
+                                        <div class="pc-title">
+                                            <h4>Best Quality Product</h4>
+                                            <p>$45.90</p>
+                                        </div>
+                                    </td>
+                                        <td>
+                    <div class="product_count">
+                      <input type="text" name="qty" id="sst" value="1" title="Quantity:" class="input-text qty"/>
+                      <button
+                        onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                        class="increase items-count"
+                        type="button"
+                      >
+                        <li id="list-inline-item2"><i class="ti-plus"></i></li>
+                      </button>
+                      <button
+                        onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                        class="reduced items-count"
+                        type="button"
+                      >
+                        <li id="list-inline-item2"><i class="ti-minus"></i></li>
+                      </button>
+                    </div>
+                  </td>
+
+                    <td class="size-col"><h4>Size M</h4></td>
+                    <td class="total-col"><h4>$45.90</h4></td>
+                </tr>
+                <tr class="total">
+                    <td class="total-col"><h4>Total  $234.00</h4></td>
+                </tr>
+            </tbody>
+                </table>
+                </div>
+              </div>
+              </div>
+               <div class="col-lg-4 card-right">
+                    <form>
+                        <input type="text" placeholder="Enter goods code">
+                        <button>Submit</button>
+                    </form>
+                    <a href="" class="site-btn sb-white">Proceed to checkout</a>
+                    <a href="" class="site-btn sb-dark">Continue shopping</a>
+                </div> 
+</div>
+<div class="container">
+    <div class="special_product" id="special_products">
+      <div class="special_header">
+        <h3>FEATURED PRODUCT</h3>
+        <p>We deal on the pest quality of products</p>
+      </div>
+      <div class="special_main">
+        <div class="col-md-4">
+          <div class="special_hover_box" >
+                            <div class="hover_pop_out1 animated fadeIn">
+                               <div class="p_icons">
+                                <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-eye"></i>
+                                </a>
+                            </div>
+                            <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-heart"></i>
+                                </a>
+                            </div>
+                            <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                              </div>
+                            </div>
+                          </div>
+          <img src="img/product-img/special_product1.jpg" class="img-responsive">
+          <span class="spec">LATEST MAN SNEAKER</span>
+          <div class="price_tag">
+          <span class="price">$40</span>
+          <span class="prev_price">$55</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="special_hover_box" >
+                            <div class="hover_pop_out1 animated fadeIn">
+                               <div class="p_icons">
+                                <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-eye"></i>
+                                </a>
+                            </div>
+                            <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-heart"></i>
+                                </a>
+                            </div>
+                            <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                              </div>
+                            </div>
+                          </div>
+          <img src="img/product-img/special_product2.jpg" class="img-responsive">
+          <span class="spec">RED WOMEN PURSE</span>
+          <div class="price_tag">
+          <span class="price">$20</span>
+          <span class="prev_price">$45</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="special_hover_box" >
+                            <div class="hover_pop_out1 animated fadeIn">
+                               <div class="p_icons">
+                                <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-eye"></i>
+                                </a>
+                            </div>
+                            <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-heart"></i>
+                                </a>
+                            </div>
+                            <div class="p_icon">
+                                <a href="#">
+                                  <i class="ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                              </div>
+                            </div>
+                          </div>
+          <img src="img/product-img/special_product3.jpg" class="img-responsive">
+          <span class="spec">MEN STYLIST SMART WATCH</span>
+          <div class="price_tag">
+          <span class="price">$70</span>
+          <span class="prev_price">$85</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><!--footer-->
+    <div class="container">
+    <div class="col-md-3">
+      <div class="f-col">
+        <div class="f-col-header">
+          <h3>LETS TALK ABOUT</h3>
+        </div>
+        <p>Shoplift is one of the best shopping mall that deals on italian wears, cusmetics and kitchen utensils.</p>
+        <div class="social-media">
+          <ul>
+            <li id="list-inline-item1"><a href="#"><i class="ti-facebook"></i></a>
+          </li>
+          <li id="list-inline-item2"><a href="#"><i class="ti-twitter"></i></a></li>
+          <li id="list-inline-item3"><a href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="s-col">
+        <div class="s-col-header">
+          <h3>LINKS</h3>
+        </div>
+        <div class="s-col-nav">
+          <ul>
+             <li><a href="index.html">Home</a></li>
+            <li><a href="#">Supports</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="th-col">
+        <div class="th-col-header">
+          <h3>SERVICES</h3>
+        </div>
+         <ul>
+             <li><a href="#">Supply of quality goods </a></li>
+            <li><a href="#">Fast delivery of goods</a></li>
+            <li><a href="#">Best customers service</a></li>
+            <li><a href="#">Standard shopping pulicy</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="fth-col">
+        <div class="fth-col-header">
+          <h3>FEATURED PRODUCT</h3>
+        </div>
+        <div class="fth-col-img">
+        <img src="img/product-img/product7.png" class="img-responsive"> 
+        </div>
+       <h3>Leather Brown Shoe</h3>
+       <span>$45.00</span>
+       <button>ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+    <div class="sub_footer">
+    <span>copyright@Prince G/Shopleft in corporation with ECR</span>
+  </div>
+</div>
+    </body>
+</html>
